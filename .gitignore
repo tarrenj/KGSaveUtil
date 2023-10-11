@@ -1,3 +1,11 @@
+export.txt
+decoded.json
+save.json
+compressed.txt
+
+package.json
+package-lock.json
+
 # Logs
 logs
 *.log

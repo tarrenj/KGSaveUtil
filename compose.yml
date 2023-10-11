@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  nodejs:
+    image: node:latest
+    volumes:
+      - .:/app
+    working_dir: /app
+    entrypoint: ./entrypoint.sh
+    #command: node compress.js
+    command: node saveUtil.js
+
